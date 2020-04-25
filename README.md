@@ -1,7 +1,3 @@
-Mr. Wen is a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. 
-
-He has already published 6 papers and filed 40+ patents in CN, JP and US.
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/bhuWenDongchao/wendongchao.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -39,3 +35,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### 
+Mr. Wen is a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. 
+
+He has already published 6 papers and filed 40+ patents in CN, JP and US.
