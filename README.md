@@ -1,3 +1,7 @@
+Mr. Wen is a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. 
+
+He has already published 6 papers and filed 40+ patents in CN, JP and US.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/bhuWenDongchao/wendongchao.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
