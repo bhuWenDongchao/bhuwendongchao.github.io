@@ -16,7 +16,7 @@ He has already published 6 papers and filed 40+ patents in CN, JP and US.
 
 ## Publications
 
-# 2019:
+### 2019:
 
 3. Tse-Wei Chen, Motoki Yoshinaga, Hongxing Gao, Wei Tao, **Dongchao Wen**, Junjie Liu, Kinya Osa, Masami Kato:
 Condensation-Net: Memory-Efficient Network Architecture With Cross-Channel Pooling Layers and Virtual Feature Maps. CVPR Workshops 2019: 149-157.
@@ -27,7 +27,7 @@ DupNet: Towards Very Tiny Quantized CNN With Improved Accuracy for Face Detectio
 1. Junjie Liu, **Dongchao Wen**, Hongxing Gao, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato:
 Knowledge Representing: Efficient, Sparse Representation of Prior Knowledge for Knowledge Distillation. CVPR Workshops 2019: 638-646.
 
-# 2018:
+### 2018:
 
 1. Hongxing Gao, Wei Tao, **Dongchao Wen**, Tse-Wei Chen, Kinya Osa, Masami Kato:
 IFQ-Net: Integrated Fixed-Point Quantization Networks for Embedded Vision. CVPR Workshops 2018: 607-615
