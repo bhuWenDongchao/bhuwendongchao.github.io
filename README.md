@@ -8,7 +8,7 @@
 
 颁发日期及证书有效日期 (如适用) 颁发日期: 2018 年 11 月长期有效
 
-https://dblp.org/pers/hd/w/Wen:Dongchao
+<https://dblp.org/pers/hd/w/Wen:Dongchao>
 
 **Mr. Wen Dongchao** is a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. 
 
