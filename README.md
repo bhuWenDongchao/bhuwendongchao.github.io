@@ -8,11 +8,25 @@
 
 颁发日期及证书有效日期 (如适用) 颁发日期: 2018 年 11 月长期有效
 
-<https://dblp.org/pers/hd/w/Wen:Dongchao>
-
 **Mr. Wen Dongchao** is a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. 
 
 He has already published 6 papers and filed 40+ patents in CN, JP and US.
+
+<https://dblp.org/pers/hd/w/Wen:Dongchao>
+
+2019:
+Tse-Wei Chen, Motoki Yoshinaga, Hongxing Gao, Wei Tao, **Dongchao Wen**, Junjie Liu, Kinya Osa, Masami Kato:
+Condensation-Net: Memory-Efficient Network Architecture With Cross-Channel Pooling Layers and Virtual Feature Maps. CVPR Workshops 2019: 149-157.
+
+Hongxing Gao, Wei Tao, **Dongchao Wen**, Junjie Liu, Tse-Wei Chen, Kinya Osa, Masami Kato:
+DupNet: Towards Very Tiny Quantized CNN With Improved Accuracy for Face Detection. CVPR Workshops 2019: 168-177.
+
+Junjie Liu, **Dongchao Wen**, Hongxing Gao, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato:
+Knowledge Representing: Efficient, Sparse Representation of Prior Knowledge for Knowledge Distillation. CVPR Workshops 2019: 638-646.
+
+2018:
+Hongxing Gao, Wei Tao, **Dongchao Wen**, Tse-Wei Chen, Kinya Osa, Masami Kato:
+IFQ-Net: Integrated Fixed-Point Quantization Networks for Embedded Vision. CVPR Workshops 2018: 607-615
 
 You can use the [editor on GitHub](https://github.com/bhuWenDongchao/wendongchao.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
