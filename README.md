@@ -1,8 +1,9 @@
-## Welcome to Wen Dongchao 
+## Welcome to 温东超 (Wen Dongchao) 
 
-温东超 (Wen Dongchao)
+教授级高级工程师 (正高级工程师)
+Professor of Engineering (Chinese Academy of Sciences)
 
-教授级高级工程师 (正高级工程师) / Professor of Engineering (Chinese Academy of Sciences)
+## About Me
 
 I am a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. I published 6 papers and filed 40+ patents in CN, JP and US.
 
