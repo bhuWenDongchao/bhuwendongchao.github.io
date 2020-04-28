@@ -2,17 +2,14 @@
 
 温东超 (Wen Dongchao)
 
-教授级高级工程师 (正高级工程师) / Professor of Engineering
+教授级高级工程师 (正高级工程师) / Professor of Engineering (Chinese Academy of Sciences)
 
-颁发机构 中国科学院 (Chinese Academy of Sciences)
+I am a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. I published 6 papers and filed 40+ patents in CN, JP and US.
 
-颁发日期及证书有效日期 (如适用) 颁发日期: 2018 年 11 月长期有效
+Before that, I received my M.S. from Beihang University (2005) and my B.S. degree from Beihang University (2002). 
 
-**Mr. Wen Dongchao** is a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. 
-
-He has already published 6 papers and filed 40+ patents in CN, JP and US.
-
-<https://dblp.org/pers/hd/w/Wen:Dongchao>
+## Activities
+* Program Committee member: The Embedded Vision Workshop <https://embeddedvisionworkshop.wordpress.com>
 
 ## Publications
 
