@@ -15,15 +15,19 @@ Before that, I received my M.S. from Beihang University (2005) and my B.S. degre
 
 ## Publications
 
+### 2020:
+
+1.
+
 ### 2019:
 
-3. Tse-Wei Chen, Motoki Yoshinaga, Hongxing Gao, Wei Tao, **Dongchao Wen**, Junjie Liu, Kinya Osa, Masami Kato:
+1. Tse-Wei Chen, Motoki Yoshinaga, Hongxing Gao, Wei Tao, **Dongchao Wen**, Junjie Liu, Kinya Osa, Masami Kato:
 Condensation-Net: Memory-Efficient Network Architecture With Cross-Channel Pooling Layers and Virtual Feature Maps. CVPR Workshops 2019: 149-157.
 
 2. Hongxing Gao, Wei Tao, **Dongchao Wen**, Junjie Liu, Tse-Wei Chen, Kinya Osa, Masami Kato:
 DupNet: Towards Very Tiny Quantized CNN With Improved Accuracy for Face Detection. CVPR Workshops 2019: 168-177.
 
-1. Junjie Liu, **Dongchao Wen**, Hongxing Gao, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato:
+3. Junjie Liu, **Dongchao Wen**, Hongxing Gao, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato:
 Knowledge Representing: Efficient, Sparse Representation of Prior Knowledge for Knowledge Distillation. CVPR Workshops 2019: 638-646.
 
 ### 2018:
