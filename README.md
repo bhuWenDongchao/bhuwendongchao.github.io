@@ -17,7 +17,7 @@ Before that, I received my M.S. from Beihang University (2005) and my B.S. degre
 
 ### 2020:
 
-1.
+1. Yaobing Zhang, Weihong Deng, Dongyue Zhao, Xian Li, **Dongchao Wen**, Global-Local GCN: Large-Scale Label Noise Cleansing for Face Recognition, CVPR 2020.
 
 ### 2019:
 
