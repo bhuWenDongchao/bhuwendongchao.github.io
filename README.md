@@ -1,4 +1,4 @@
-## Welcome to 温东超 (Wen Dongchao) 
+## 温东超 (Wen Dongchao) 
 
 教授级高级工程师 (正高级工程师)
 
