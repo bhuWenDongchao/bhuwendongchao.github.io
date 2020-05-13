@@ -17,7 +17,7 @@ Before that, I received my M.S. from Beihang University (2005) and my B.S. degre
 
 ### 2020:
 
-1. Yaobing Zhang, Weihong Deng, Mei Wang, Jiani Hu, Xian Li, Dongyue Zhao, **Dongchao Wen**, "Global-Local GCN: Large-Scale Label Noise Cleansing for Face Recognition", CVPR 2020.
+1. Yaobing Zhang, Weihong Deng, Mei Wang, Jiani Hu, Xian Li, Dongyue Zhao, **Dongchao Wen**, "Global-Local GCN: Large-Scale Label Noise Cleansing for Face Recognition", CVPR 2020. (*Principal Investigator (PI)*)
 
 2. Junjie Liu, **Dongchao Wen**, Deyu Wang, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato, "BAMSProd: A Step towards Generalizing the Adaptive Optimization Methods to Deep Binary Model". CVPR Workshops 2020 **(Oral)**
 
