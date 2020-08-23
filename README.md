@@ -6,7 +6,7 @@ Professor of Engineering (Chinese Academy of Sciences)
 
 ## About Me
 
-I am a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. I published 6 papers and filed 40+ patents in CN, JP and US.
+I am a Senior Research Scientist at Canon Information Technology (Beijing) Co., Ltd., leading forward-looking research works on deep learning, e.g. network architecture design, loss function design, model compression  (e.g. low-bits), stochastic optimization methods, knowledge distillation, AutoML(e.g. NAS),  etc. I published 8 papers and filed 40+ patents in CN, JP and US.
 
 Before that, I received my M.S. from Beihang University (2005) and my B.S. degree from Beihang University (2002). 
 
