@@ -21,9 +21,9 @@ Before that, I received my M.S. from Beihang University (2005) and my B.S. degre
 
 2. Junjie Liu, **Dongchao Wen**, Deyu Wang, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato, "BAMSProd: A Step towards Generalizing the Adaptive Optimization Methods to Deep Binary Model". CVPR Workshops 2020 **(Oral)**
 
-3. Tse-Wei Chen, Wei Tao, Deyu Wang, **Dongchao Wen**, Masami Kato, Kinya Osa, Hardware Architecture of Embedded Inference Accelerator and Analysis of Algorithms for Depthwise and Large-Kernel Convolutions, ECCV Workshops 2020.
+3. Tse-Wei Chen, Wei Tao, Deyu Wang, **Dongchao Wen**, Masami Kato, Kinya Osa, Hardware Architecture of Embedded Inference Accelerator and Analysis of Algorithms for Depthwise and Large-Kernel Convolutions, ECCV Workshops 2020. **(Oral)**
 
-4. Junjie Liu, **Dongchao Wen**, Deyu Wang, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato, QuantNet: Learning to Quantize by Learning within Fully Differentiable Framework, ECCV Workshops 2020.
+4. Junjie Liu, **Dongchao Wen**, Deyu Wang, Wei Tao, Tse-Wei Chen, Kinya Osa, Masami Kato, QuantNet: Learning to Quantize by Learning within Fully Differentiable Framework, ECCV Workshops 2020. **(Oral)**
 
 ### 2019:
 
