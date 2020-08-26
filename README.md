@@ -13,6 +13,10 @@ Before that, I received my M.S. from Beihang University (2005) and my B.S. degre
 ## Activities
 * Program Committee member: The Embedded Vision Workshop <https://embeddedvisionworkshop.wordpress.com>
 
+## News
+
+1. Achieved **Rank 4** in the world in NIST FRVT 1:1 contest on Aug.26th,2020.
+
 ## Publications
 
 ### 2020:
