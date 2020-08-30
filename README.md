@@ -15,9 +15,11 @@ Before that, I received my M.S. from Beihang University (2005) and my B.S. degre
 
 ## News
 
-1. My team achieved **Rank 4th** in the world in NIST FRVT 1:1 contest in Aug,2020. (Team name: cib-001)
-2. My team achieved **Rank 25th** in the world in NIST FRVT 1:1 contest in Dec,2019.(Team name: cib-000)
-
+1. Face Recognition: My team achieved **Rank 4th** in the world in NIST FRVT 1:1 contest in Aug,2020. (Team name: cib-001, 2nd submission)
+2. Face Recognition: My team achieved **Rank 25th** in the world in NIST FRVT 1:1 contest in Dec,2019.(Team name: cib-000, 1st submission)
+ - NIST: Institute of Standards and Technology, FRVT: Face Recognition Vendor Test
+   https://pages.nist.gov/frvt/html/frvt11.html
+   
 ## Publications
 
 ### 2020:
