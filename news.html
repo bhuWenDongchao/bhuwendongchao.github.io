@@ -1,35 +1,127 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-    <title>新闻动态 - Dongchao Wen (温东超)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻动态 - <b>Dongchao Wen (温东超)</b></title>
+    <style>
+        * {
+            font-family: "宋体", "SimSun", sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* 导航区 */
+        .nav-links {
+            margin: 20px 0;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            margin-right: 25px;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #003d8b;
+        }
+
+        /* 内容区 */
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0056b3;
+            margin: 30px 0 15px;
+            border-left: 4px solid #0056b3;
+            padding-left: 10px;
+        }
+
+        .list-item {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .list-item::before {
+            content: "・";
+            color: #0056b3;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .nav-links {
+                text-align: center;
+            }
+
+            .nav-links a {
+                margin: 0 10px;
+                font-size: 0.95em;
+            }
+
+            body {
+                padding: 20px 15px;
+            }
+        }
+
+        /* 页脚 */
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
+    </style>
 </head>
+
 <body>
-    <table summary="Table for page layout." id="tlayout">
-        <tr valign="top">
-            <td id="layout-menu">
-                <div class="menu-category">导航</div>
-                <div class="menu-item"><a href="index.html">主页</a></div>
-                <div class="menu-item"><a href="news.html">新闻动态</a></div>
-                <div class="menu-item"><a href="publications.html">出版物</a></div>
-                <div class="menu-item"><a href="patents.html">专利信息</a></div>
-                <div class="menu-item"><a href="achievements.html">成就</a></div>
-            </td>
-            <td id="layout-content">
-               <h2>News</h2>
-<ul>
-<li><p><i> On August.30th, 2024, We achieved <b>No.2</b> out of 706 teams in Phase1, <b>No.11</b> out of 184 teams in Phase2, <b>No.13 (Excellence Awards)</b> in the final phase, in Track 1: Deepfake Image Detection of the "Inclusion・The Global Multimedia Deepfake contest." (Team name: AntiFake) </i></p></li>
-  <a href="https://www.kaggle.com/competitions/multi-ffdi/overview">Kaggle: Inclusion・The Global Multimedia Deepfake Detection</a>
-<li><p><i> On July.5th, 2023, Face Recognition: My team achieved Rank <b>No.5@(Investigation (R=1, T=0)by Developer) (total: 116 entries)</b> in the world in NIST FRVT 1:N contest. (Team name: CompanyName-000, 1st submission)</i></p></li>
-<a href="https://pages.nist.gov/frvt/html/frvt11.html">NIST FRVT</a>
-<li><p><i> On March.9th, 2023, Face Recognition: My team achieved Rank <b>No.5@wild category (total: 493 entries)</b> in the world in NIST FRVT 1:1 contest. (Team name: CompanyName-001, 2nd submission)</i></p></li>
-<a href="https://pages.nist.gov/frvt/html/frvt1N.html">NIST FRVT</a>
-</ul>  
-            </td>
-        </tr>
-    </table>
+    <!-- 导航区 -->
+    <div class="nav-links">
+        <a href="index.html">主页</a>
+        <a href="news.html">新闻动态</a>
+        <a href="publications.html">出版物</a>
+        <a href="patents.html">专利信息</a>
+        <a href="achievements.html">成就</a>
+    </div>
+
+    <!-- 新闻动态信息 -->
+    <h2 class="section-title">News</h2>
+    <ul>
+        <li class="list-item">
+            <p>On August.30th, 2024, We achieved <b>No.2</b> out of 706 teams in Phase1, <b>No.11</b> out of 184 teams in Phase2, <b>No.13 (Excellence Awards)</b> in the final phase, in Track 1: Deepfake Image Detection of the "Inclusion・The Global Multimedia Deepfake contest." (Team name: AntiFake)</p>
+            <a href="https://www.kaggle.com/competitions/multi-ffdi/overview">Kaggle: Inclusion・The Global Multimedia Deepfake Detection</a>
+        </li>
+        <li class="list-item">
+            <p>On July.5th, 2023, Face Recognition: My team achieved Rank <b>No.5@(Investigation (R=1, T=0)by Developer) (total: 116 entries)</b> in the world in NIST FRVT 1:N contest. (Team name: CompanyName-000, 1st submission)</p>
+            <a href="https://pages.nist.gov/frvt/html/frvt11.html">NIST FRVT</a>
+        </li>
+        <li class="list-item">
+            <p>On March.9th, 2023, Face Recognition: My team achieved Rank <b>No.5@wild category (total: 493 entries)</b> in the world in NIST FRVT 1:1 contest. (Team name: CompanyName-001, 2nd submission)</p>
+            <a href="https://pages.nist.gov/frvt/html/frvt1N.html">NIST FRVT</a>
+        </li>
+    </ul>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        Copyright © 2025 <b>Dongchao Wen</b>'s Academic Website<br>
+        技术支持：<a href="https://example.com" target="_blank">XXX实验室</a>
+    </div>
 </body>
-</html>    
+</html>
