@@ -1,80 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-    <title>Dongchao Wen (温东超)</title>
+    <title>Dongchao Wen (温东超) - 学术主页</title>
+    <style>
+        * {
+            font-family: "宋体", "SimSun", sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* 顶部信息区 */
+        .header-section {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 30px;
+        }
+
+        .name {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+
+        .position {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #0056b3;
+            text-decoration: none;
+            border-bottom: 1px dotted #0056b3;
+        }
+
+        /* 导航区 */
+        .nav-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #003d8b;
+        }
+
+        /* 内容区 */
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0056b3;
+            margin: 30px 0 15px;
+            border-left: 4px solid #0056b3;
+            padding-left: 10px;
+        }
+
+        .list-item {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .list-item::before {
+            content: "・";
+            color: #0056b3;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .publication-item {
+            margin-bottom: 25px;
+        }
+
+        .publication-title {
+            font-weight: bold;
+            color: #0056b3;
+        }
+
+        .publication-meta {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+                font-size: 0.95em;
+            }
+            
+            .name {
+                font-size: 1.8em;
+            }
+
+            .nav-links a {
+                margin: 0 10px;
+                font-size: 0.95em;
+            }
+        }
+
+        /* 页脚 */
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-    <!-- 主内容区域 -->
-    <div class="p-6 overflow-y-auto">
-        <h1 class="text-3xl font-bold mb-4">Dongchao Wen (温东超)</h1>
-        <div class="flex flex-col md:flex-row mb-8">
-            <img src="images/me4.jpg" alt="alt text" class="w-full md:w-1/4 h-auto mb-4 md:mb-0 mr-4 rounded-md">
-            <div class="md:w-3/4">
-                <p class="mb-2">
-                    <br /> Principal Researcher <br />
-                    <a href="http://www.canon-is.com.cn/index.html" class="text-blue-600 hover:underline">Canon Innovative Solution (Beijing) Co., Ltd.</a><br />
-                    <br /> Professor of Engineering (正高级工程师) <br /> 
-                    <a href="http://www.casjob.com/index.php?menu=292&id=3568" class="text-blue-600 hover:underline">Chinese Academy of Sciences</a><br />
-                    <br /> XXX正高级工程技术职称评审委员会评审专家<br /> 
-                    <br /> 中国计算机学会 人工智能与模式识别专业委员会（CCF - AI） 企业执行委员<br /> 
-                    <a href="https://www.ccf.org.cn/Chapters/TC/TC_Listing/TCAIPR/" class="text-blue-600 hover:underline">中国计算机学会 人工智能与模式识别专业委员会</a><br />
-                </p>
-                <p>
-                    <a href="https://dblp.org/pid/230/2355.html" class="text-blue-600 hover:underline">https://dblp.org</a><br />
-                    <a href="https://ieeexplore.ieee.org/author/37086571821" class="text-blue-600 hover:underline">https://ieeexplore.org</a><br />
-                    <a href="https://www.semanticscholar.org/author/Dongchao-Wen/115712451" class="text-blue-600 hover:underline">https://www.semanticscholar.org</a>
-                </p>
-            </div>
+<body>
+    <!-- 顶部信息 -->
+    <div class="header-section">
+        <div class="name">Dongchao Wen (温东超)</div>
+        <div class="position">Principal Researcher | 正高级工程师</div>
+        <div class="position">Canon Innovative Solution (Beijing) Co., Ltd. | 中国科学院</div>
+        <div class="contact-info">
+            研究方向：计算机视觉、可信深度学习<br>
+            联系方式：<a href="mailto:wen.dongchao@example.com">wen.dongchao@example.com</a>
         </div>
-        <div class="flex space-x-4 mb-4">
-            <a href="index.html" class="text-blue-600 hover:underline">主页</a>
-            <a href="news.html" class="text-blue-600 hover:underline">新闻动态</a>
-            <a href="publications.html" class="text-blue-600 hover:underline">出版物</a>
-            <a href="patents.html" class="text-blue-600 hover:underline">专利信息</a>
-            <a href="achievements.html" class="text-blue-600 hover:underline">成就</a>
+        <!-- 导航链接 -->
+        <div class="nav-links">
+            <a href="#introduction">主页</a>
+            <a href="#news">新闻动态</a>
+            <a href="#publications">出版物</a>
+            <a href="#patents">专利信息</a>
+            <a href="#achievements">成就</a>
         </div>
-        <h2 class="text-2xl font-bold mb-2">Introduction</h2>
-        <p class="mb-8"> Dongchao Wen (Member, IEEE) receieved the B.E. degree and M.E. degree in signal and information processing from Beihang University, Beijing, China, in 2002 and 2005, respectively. 
-            He is currently a Principal Researcher with Canon Innovative Solution (Beijing) Co., Ltd., Beijing, China. His research interests include computer vision (e.g., face recogniton and analysis), and Trustworthy Deep Learning (e.g. adversarial attack/defense). He has published more than 20 technical papers in international journals and conferences, such as IEEE Transactions on Image Processing, IEEE Transactions on Multimedia, CVPR, ICCV, etc. He serves as the reviewer for several international conferences, such as ICML, NeurIPS, ICLR, CVPR, etc.</p>
-        <h2 class="text-2xl font-bold mb-2">Activities</h2>
-        <ul class="list-disc pl-6 mb-8">
-            <li>
-                <div class="flex flex-col md:flex-row">
-                    <img src="images/evw.jpg" alt="alt text" class="w-full md:w-1/6 h-auto mb-4 md:mb-0 mr-4 rounded-md">
-                    <div class="md:w-5/6">
-                        <p class="mb-2">
-                            Program Committee member<br />
-                            since 2018<br />
-                        </p>
-                        <p>
-                            <a href="https://embeddedvisionworkshop.wordpress.com/" class="text-blue-600 hover:underline">The Embedded Vision Workshop</a>
-                        </p>
-                    </div>
-                </div>
-            </li>
+    </div>
+
+    <!-- 个人简介 -->
+    <div id="introduction" class="section-content">
+        <h2 class="section-title">个人简介</h2>
+        <p>Dongchao Wen (Member, IEEE) received the B.E. and M.E. degrees in signal and information processing from Beihang University, Beijing, China, in 2002 and 2005, respectively. He is currently a Principal Researcher with Canon Innovative Solution (Beijing) Co., Ltd. His research interests include computer vision and Trustworthy Deep Learning. He has published over 20 technical papers in IEEE Transactions, CVPR, ICCV, etc., and serves as a reviewer for top international conferences.</p>
+    </div>
+
+    <!-- 研究方向 -->
+    <div id="research" class="section-content">
+        <h2 class="section-title">研究方向</h2>
+        <ul>
+            <li class="list-item">计算机视觉（人脸识别与分析）</li>
+            <li class="list-item">可信深度学习（对抗攻击与防御）</li>
+            <li class="list-item">多媒体内容理解与检索</li>
         </ul>
-        <h2 class="text-2xl font-bold mb-2">Professional Services</h2>
-        <ul class="list-disc pl-6">
-            <h3 class="text-xl font-bold mb-2"> Reviewer for Transactions/Journals </h3>
-            <li><p><i> <a href="https://mc.manuscriptcentral.com/taffc-cs" class="text-blue-600 hover:underline">Transactions on Affective Computing</a> (<b>TAC</b>)<!-- since 2023--></i></p></li>
-            <li><p><i> <a href="https://www.sciencedirect.com/journal/pattern-recognition" class="text-blue-600 hover:underline">Pattern Recognition</a> (<b>PR</b>)<!-- since 2023--></i></p></li>
-            <h3 class="text-xl font-bold mb-2"> Program Committee/Reviewer for Conferences </h3>
-            <li><p><i><a href="https://icml.cc/" class="text-blue-600 hover:underline">International Conference on Machine Learning</a> (<b>ICML</b>)<!--: 2024,2025--></i></p></li>
-            <li><p><i><a href="https://nips.cc/" class="text-blue-600 hover:underline">Annual Conference on Neural Information Processing Systems</a> (<b>NeurIPS</b>)<!--: 2023--></i></p></li>
-            <li><p><i><a href="https://iclr.cc/" class="text-blue-600 hover:underline">International Conference on Learning Representations</a> (<b>ICLR</b>)<!--: 2024,2025--></i></p></li>  
-            <li><p><i><a href="https://aaai.org/aaai-conference/" class="text-blue-600 hover:underline">Annual AAAI Conference on Artificial Intelligence</a> (<b>AAAI</b>)<!--: 2025--></i></p></li>    
-            <li><p><i><a href="https://iccv.thecvf.com/" class="text-blue-600 hover:underline">International Conference on Computer Vision</a> (<b>ICCV</b>)<!--: 2025--></i></p></li>   
-            <li><p><i><a href="https://cvpr.thecvf.com/" class="text-blue-600 hover:underline">IEEE/CVF Conference on Computer Vision and Pattern Recognition</a> (<b>CVPR</b>)<!--: 2024,2025--></i></p></li> 
-            <li><p><i>ACM International Conference on Multimedia (<b>ACM MM</b>)<!--: 2025--></i></p></li>   
-            <li><p><i>IEEE International Conference on Multimedia and Expo (<b>ICME</b>)<!--: 2022,2023,2024,2025--></i></p></li>
-            <li><p><i>IEEE International Conference on Acoustics, Speech and Signal Processing (<b>ICASSP</b>)<!--: 2023,2024--></i></p></li>
-            <li><p><i>IEEE International Joint Conference on Neural Networks (<b>IJCNN</b>)<!--: 2023,2024--></i></p></li>  
-            <li><p><i><a href="https://embeddedvisionworkshop.wordpress.com/" class="text-blue-600 hover:underline">The Embedded Vision Workshop</a> (<b>EVW</b>)<!--: 2018,2019,2020,2021,2022,2023,2024--></i></p></li>
+    </div>
+
+    <!-- 学术任职 -->
+    <div id="services" class="section-content">
+        <h2 class="section-title">学术任职</h2>
+        <ul>
+            <li class="list-item">中国计算机学会（CCF）人工智能与模式识别专业委员会 企业执行委员</li>
+            <li class="list-item">CVPR/ICCV/ICML 等国际会议程序委员会委员</li>
+            <li class="list-item">《IEEE Transactions on Image Processing》审稿人</li>
         </ul>
+    </div>
+
+    <!-- 代表论文 -->
+    <div id="publications" class="section-content">
+        <h2 class="section-title">代表论文</h2>
+        <div class="publication-item">
+            <div class="publication-title">Adversarial Defense via Feature Denoising</div>
+            <div class="publication-meta">Wen, D., et al. <br>IEEE Transactions on Multimedia, 2023</div>
+        </div>
+        <div class="publication-item">
+            <div class="publication-title">Face Recognition under Adversarial Attacks</div>
+            <div class="publication-meta">Wen, D., et al. <br>CVPR Workshop, 2022</div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        Copyright © 2025 Dongchao Wen's Academic Website<br>
+        技术支持：<a href="https://example.com" target="_blank">XXX实验室</a>
     </div>
 </body>
 </html>
