@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,10 +24,24 @@
 
         /* 顶部信息区 */
         .header-section {
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
             margin-bottom: 40px;
             border-bottom: 2px solid #e5e5e5;
             padding-bottom: 30px;
+            gap: 40px;
+        }
+
+        .personal-photo {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .header-content {
+            flex-grow: 1;
         }
 
         .name {
@@ -56,13 +71,12 @@
 
         /* 导航区 */
         .nav-links {
-            text-align: center;
             margin: 20px 0;
         }
 
         .nav-links a {
             display: inline-block;
-            margin: 0 15px;
+            margin-right: 25px;
             color: #0056b3;
             text-decoration: none;
             font-weight: bold;
@@ -114,18 +128,27 @@
 
         /* 移动端适配 */
         @media (max-width: 768px) {
-            body {
-                padding: 20px 15px;
-                font-size: 0.95em;
+            .header-section {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
             }
-            
-            .name {
-                font-size: 1.8em;
+
+            .personal-photo {
+                width: 150px;
+            }
+
+            .nav-links {
+                text-align: center;
             }
 
             .nav-links a {
                 margin: 0 10px;
                 font-size: 0.95em;
+            }
+
+            body {
+                padding: 20px 15px;
             }
         }
 
@@ -140,23 +163,26 @@
         }
     </style>
 </head>
+
 <body>
-    <!-- 顶部信息 -->
+    <!-- 顶部信息区 -->
     <div class="header-section">
-        <div class="name">Dongchao Wen (温东超)</div>
-        <div class="position">Principal Researcher | 正高级工程师</div>
-        <div class="position">Canon Innovative Solution (Beijing) Co., Ltd. | 中国科学院</div>
-        <div class="contact-info">
-            研究方向：计算机视觉、可信深度学习<br>
-            联系方式：<a href="mailto:wen.dongchao@example.com">wen.dongchao@example.com</a>
-        </div>
-        <!-- 导航链接 -->
-        <div class="nav-links">
-            <a href="#introduction">主页</a>
-            <a href="#news">新闻动态</a>
-            <a href="#publications">出版物</a>
-            <a href="#patents">专利信息</a>
-            <a href="#achievements">成就</a>
+        <img class="personal-photo" src="images/me4.jpg" alt="Dongchao Wen 的个人照片">
+        <div class="header-content">
+            <div class="name">Dongchao Wen (温东超)</div>
+            <div class="position">Principal Researcher | 正高级工程师</div>
+            <div class="position">Canon Innovative Solution (Beijing) Co., Ltd. | 中国科学院</div>
+            <div class="contact-info">
+                研究方向：计算机视觉、可信深度学习<br>
+                联系方式：<a href="mailto:wen.dongchao@example.com">wen.dongchao@example.com</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">主页</a>
+                <a href="news.html">新闻动态</a>
+                <a href="publications.html">出版物</a>
+                <a href="patents.html">专利信息</a>
+                <a href="achievements.html">成就</a>
+            </div>
         </div>
     </div>
 
@@ -205,4 +231,5 @@
         技术支持：<a href="https://example.com" target="_blank">XXX实验室</a>
     </div>
 </body>
-</html>
+
+</html>    
